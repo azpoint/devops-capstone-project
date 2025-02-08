@@ -1,0 +1,3 @@
+[submodule "devops-capstone-project"]
+    path = devops-capstone-project
+    url = https://github.com/azpoint/devops-capstone-project.git
