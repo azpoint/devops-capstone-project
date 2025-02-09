@@ -1,10 +1,8 @@
-"""
-Account API Service Test Suite
+# Account API Service Test Suite
+# Test cases can be run with the following:
+#   nosetests -v --with-spec --spec-color
+#   coverage report -m
 
-Test cases can be run with the following:
-  nosetests -v --with-spec --spec-color
-  coverage report -m
-"""
 import os
 import logging
 from unittest import TestCase
@@ -186,3 +184,4 @@ class TestAccountService(TestCase):
         }
         for key, value in headers.items():
             self.assertEqual(response.headers.get(key), value)
+
